@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="tp.css">
+	<script type="text/javascript" src="tp.js"></script>
+</head>
+<body>
+	<div class="beranda">
+		
+			<td><button class="login"><a href="beranda1.html" class="login" onclick="konfirmasi()">Beranda</a></td></button>
+		
+		
+		
+	</div>
+	<div class="kiri"></div>
+	<div class="tengah">
+		<form  method="post" action="login.php">
+			<h2>Formulir Pendaftaran</h2><hr align="center" width="80%">
+			<table align="center">
+				<tr>
+					<td>Nama Depan</td>
+					<td>Nama Belakang</td>
+				</tr>
+				<tr>
+					<td><input type="text" name="Namad" placeholder="Nama Depan"></td>
+					<td><input type="text" name="Namab" placeholder="Nama Belakang"></td>
+				</tr>
+				<tr>
+					<td>Nim</td>
+				</tr>
+				<tr>
+					<td colspan="2"><input type="text" name="Nim" placeholder="Nim" style="width: 350px"></td>
+				</tr>
+				<tr>
+					<td>Email</td>
+				</tr>
+				<tr>
+					<td colspan="2"><input type="email" name="Email" placeholder="Email" style="width: 350px"></td>
+				</tr>
+				<tr>
+					<td>Divisi</td>
+				</tr>
+				<tr>
+					<td colspan="2">
+						<select name="Divisi" style="width: 350px;" >
+							<option>pilih Divisi</option>
+							<option value="KOMINFO">KOMINFO</option>
+							<option value="HUMAS">HUMAS</option>
+							<option value="DANUS">DANUS</option>
+							<option value="PSDM">PSDM</option>
+							<option value="ROHIS">ROHIS</option>
+							<option value="KADERISASI">KADERISASI</option>
+							<option value="AKASTRAT">AKASTRAT</option>
+						</select>
+					</td>
+				</tr>
+				<tr>
+					<td>Visi dan Misi</td>
+				</tr>
+				<tr>
+					<td colspan="2"><textarea name="visi" placeholder="Visi dan Misi" style="width: 350px; height: 70px"></textarea></td>
+				</tr>
+				<tr>
+					<td><input type="submit" name="submit"  value="Kirim" class="login" onclick="kondisi()"></td>
+					<td><input type="reset" name="" value="Ulang" class="login"></td>
+
+				</tr>
+			
+			</table>
+		</form>
+	</div>
+	<div class="kanan"></div>
+
+</body>
+</html>
